@@ -1,0 +1,224 @@
+public class SelectDerivedPage extends JWizardPanel {
+    /** ページID */
+    static public int ID = 2;
+
+    /** 全Nullケースを設定するチェックボックス */
+    static public JCheckBox allNullChkBox;
+
+    /**
+     * TreeTableコンポーネント
+     */
+    private JTreeTable treeTable;
+
+    /**
+     * 派生データ生成対象を指定するListViewコンポーネント
+     */
+    private JList<Object> list;
+
+    /**
+     * Constructor.
+     * @param arg0
+     */
+    public SelectDerivedPage(JWizardComponents arg0) {
+        super(arg0);
+        createPage();
+    }
+
+    /**
+     * ページを生成する
+     */
+    private void createPage() {
+        setPanelTitle("派生データを作成するケースを選択する。");
+
+        treeTable = new JTreeTable();
+        /** 列のセレクションのみ有効 */
+        treeTable.setColumnSelectionAllowed(true);
+        treeTable.setRowSelectionAllowed(true);
+        /** テーブルのセルに設定されている値分の列サイズを確保 */
+        treeTable.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
+        // Cellエディタを拡張
+        treeTable.setDefaultEditor(String.class, new ComponentEditor());
+        /** テーブルにスクロールバーを追加 */
+        JScrollPane scrollPane1 = new JScrollPane(treeTable);
+
+        final DefaultListModel<Object> listModel = new DefaultListModel<Object>();
+        /** Listを作成 */
+        list = new JList<Object>(listModel);
+        list.setCellRenderer(new TableColumnCellRenderer());
+        /** リストにスクロールバーを追加 */
+        JScrollPane scrollPane2 = new JScrollPane(list);
+
+        /** Create Add Button */
+        JButton button_Add = new JButton(">>");
+        button_Add.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                addColumns(listModel);
+            }
+        });
+        // ダブルクリックで選択
+        final JTableHeader tableHeader = treeTable.getTableHeader();
+        tableHeader.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                if (e.getClickCount() == 2) {
+                    addColumns(listModel);
+                }
+            }
+        });
+
+        /** Create Delete Button */
+        JButton button_Del = new JButton("<<");
+        button_Del.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                for (Object obj : list.getSelectedValuesList()) {
+                    listModel.removeElement(obj);
+                }
+            }
+        });
+
+        /* Create CheckBox */
+        JPanel chkBoxPanel = new JPanel();
+        LineBorder lineBorder = new LineBorder(Color.gray, 1);
+        TitledBorder titleBorder = new TitledBorder(lineBorder, "ケースの自動追加",
+                TitledBorder.LEFT, TitledBorder.TOP);
+        chkBoxPanel.setBorder(titleBorder);
+        allNullChkBox = new JCheckBox(SimDataCollectUtil.ALL_NULL_TEXT);
+        chkBoxPanel.add(allNullChkBox);
+        BoxLayout boxlayout = new BoxLayout(chkBoxPanel, BoxLayout.Y_AXIS);
+        chkBoxPanel.setLayout(boxlayout);
+
+        /** Create GridBagLayout */
+        GridBagLayout layout = new GridBagLayout();
+        setLayout(layout);
+
+        /** Place component to panel. */
+        /** Table Constaraints */
+        GridBagConstraints gbc1 = new GridBagConstraints();
+        gbc1.fill = GridBagConstraints.BOTH;
+        gbc1.weightx = 1.0;
+        gbc1.weighty = 1.0;
+        gbc1.gridx = 0;
+        gbc1.gridy = 0;
+        gbc1.gridwidth = 4;
+        gbc1.gridheight = 5;
+        layout.addLayoutComponent(scrollPane1, gbc1);
+        /** Button Constraints */
+        GridBagConstraints gbc2 = new GridBagConstraints();
+        gbc2.gridx = 4;
+        gbc2.gridy = 0;
+        layout.addLayoutComponent(button_Add, gbc2);
+        GridBagConstraints gbc3 = new GridBagConstraints();
+        gbc3.gridx = 4;
+        gbc3.gridy = 1;
+        layout.addLayoutComponent(button_Del, gbc3);
+        /** List Constaraints */
+        GridBagConstraints gbc4 = new GridBagConstraints();
+        gbc4.fill = GridBagConstraints.BOTH;
+        gbc4.weighty = 1.0;
+        gbc4.gridx = 5;
+        gbc4.gridy = 0;
+        gbc4.gridwidth = 2;
+        gbc4.gridheight = 3;
+        layout.addLayoutComponent(scrollPane2, gbc4);
+        /** CheckBox Constaraints */
+        GridBagConstraints gbc5 = new GridBagConstraints();
+        gbc4.weightx = 0.2;
+        gbc5.gridx = 5;
+        gbc5.gridy = 3;
+        gbc5.gridwidth = 2;
+        gbc5.gridheight = 2;
+        layout.addLayoutComponent(chkBoxPanel, gbc5);
+
+        add(scrollPane1);
+        add(button_Add);
+        add(button_Del);
+        add(scrollPane2);
+        add(chkBoxPanel);
+    }
+
+    /**
+     * Listのラベルプロバイダー
+     */
+    class TableColumnCellRenderer extends DefaultListCellRenderer {
+
+        @Override
+        public Component getListCellRendererComponent(
+                JList<? extends Object> list, Object value, int index,
+                boolean isSelected, boolean cellHasFocus) {
+            Component component = super.getListCellRendererComponent(list,
+                    value, index, isSelected, cellHasFocus);
+            String text = value.toString();
+            /** Listに表示するラベルのみ変更 */
+            if (value instanceof TableColumn) {
+                text = String.valueOf(((TableColumn) value).getHeaderValue());
+            }
+            setText(text);
+            return component;
+        }
+    }
+
+    /**
+     * リストビューに選択されているカラムを追加する
+     * @param listModel
+     */
+    private void addColumns(final DefaultListModel<Object> listModel) {
+        for (int selectedCol : treeTable.getSelectedColumns()) {
+            /** 論理名、属性の列は追加不可とする */
+            if (selectedCol < 2) {
+                continue;
+            }
+            TableColumn column = treeTable.getColumnModel().getColumn(
+                    selectedCol);
+            if (!listModel.contains(column)) {
+                listModel.addElement(column);
+            }
+        }
+    }
+
+    /**
+     * 表示用のモデルを設定する
+     * @param model {@link RSElementModel}
+     */
+    public void setModel(RSElementModel model) {
+        // テーブルデータをセット
+        // ツリー操作以外を不可にする
+        RSElementModel thisPageModel = new RSElementModel(model) {
+            @Override
+            public boolean isCellEditable(Object node, int column) {
+                if (column == 0) {
+                    return true;
+                }
+                if (node instanceof CaseInfo) {
+                    return column > 1;
+                }
+                return false;
+            }
+        };
+        treeTable.create(thisPageModel);
+        // リストを初期化
+        DefaultListModel<Object> listModel = (DefaultListModel<Object>) list
+                .getModel();
+        if (listModel != null) {
+            listModel.removeAllElements();
+        }
+    }
+
+    /**
+     * InputXML作成用データを返却する
+     * @return
+     */
+    public TableModel getModel() {
+        return treeTable.getModel();
+    }
+
+    /**
+     * 派生データを作成するデータ一覧を返却する
+     * @return
+     */
+    public ListModel<Object> getListModel() {
+        return list.getModel();
+    }
+}
