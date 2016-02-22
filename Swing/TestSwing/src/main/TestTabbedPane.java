@@ -13,7 +13,7 @@ import javax.swing.JTextField;
 public class TestTabbedPane {
 
 	String requiredLabel = "•K{“ü—Í";
-	String optionalLabel = "”CˆÓ";
+	String optionalLabel = "”CˆÓ“ü—Í";
 
 	public TestTabbedPane() {
 		// TODO Auto-generated constructor stub
