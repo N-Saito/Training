@@ -12,8 +12,8 @@ import javax.swing.JTextField;
 
 public class TestTabbedPane {
 
-	String requiredLabel = "•K{“ü—Í";
-	String optionalLabel = "”CˆÓ“ü—Í";
+	String requiredLabel = "•K{";
+	String optionalLabel = "”CˆÓ";
 
 	public TestTabbedPane() {
 		// TODO Auto-generated constructor stub
