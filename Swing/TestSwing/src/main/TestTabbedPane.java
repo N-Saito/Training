@@ -22,7 +22,7 @@ public class TestTabbedPane {
 	public void createTabbedPane(JFrame frame) {
 		JTabbedPane tabbedpane = new JTabbedPane();
 
-		/** タブの位置を設定 */
+		/* タブの位置を設定 */
 		tabbedpane.setTabPlacement(JTabbedPane.LEFT);
 		/* タブが増えた場合は多段化 */
 		tabbedpane.setTabLayoutPolicy(JTabbedPane.WRAP_TAB_LAYOUT);
