@@ -16,7 +16,7 @@ public class TestTabbedPane {
 	String optionalLabel = "”CˆÓ";
 
 	public TestTabbedPane() {
-		// TODO Auto-generated constructor stub
+		// nothing to do
 	}
 
 	public void createTabbedPane(JFrame frame) {
