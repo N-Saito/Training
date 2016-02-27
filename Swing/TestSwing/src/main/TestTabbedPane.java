@@ -16,7 +16,7 @@ public class TestTabbedPane {
 	String optionalLabel = "”CˆÓ";
 
 	public TestTabbedPane() {
-		// nothing to do
+		// do nothing
 	}
 
 	public void createTabbedPane(JFrame frame) {
