@@ -1,18 +1,22 @@
 package application;
 	
+import java.net.URL;
+
 import javafx.application.Application;
-import javafx.stage.Stage;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
+import javafx.stage.Stage;
 
 
 public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			BorderPane root = new BorderPane();
+			URL url = getClass().getClassLoader().getResource("\\fxml\\testGridPane.fxml");
+			 GridPane root = FXMLLoader.load(url);
 			Scene scene = new Scene(root,400,400);
-			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
+			primaryStage.setTitle("FXMLサンプル");
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {
