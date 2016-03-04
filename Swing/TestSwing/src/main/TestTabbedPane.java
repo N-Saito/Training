@@ -12,23 +12,23 @@ import javax.swing.JTextField;
 
 public class TestTabbedPane {
 
-	String requiredLabel = "•K{";
-	String optionalLabel = "”CˆÓ";
+	String requiredLabel = "å¿…é ˆ";
+	String optionalLabel = "ä»»æ„";
 
 	public TestTabbedPane() {
-		// do nothing
+		// do nothing.
 	}
 
 	public void createTabbedPane(JFrame frame) {
 		JTabbedPane tabbedpane = new JTabbedPane();
 
-		/* ƒ^ƒu‚ÌˆÊ’u‚ğİ’è */
+		/* ã‚¿ãƒ–ã®ä½ç½®ã‚’è¨­å®š*/
 		tabbedpane.setTabPlacement(JTabbedPane.LEFT);
-		/* ƒ^ƒu‚ª‘‚¦‚½ê‡‚Í‘½’i‰» */
+		/* ã‚¿ãƒ–ãŒå¢—ãˆãŸå ´åˆã¯å¤šæ®µåŒ– */
 		tabbedpane.setTabLayoutPolicy(JTabbedPane.WRAP_TAB_LAYOUT);
 
 		JPanel tabPanel1 = new JPanel();
-		tabPanel1.setPreferredSize(new Dimension(400, 400));
+		tabPanel1.setMaximumSize(new Dimension(new Dimension(Short.MAX_VALUE,Short.MAX_VALUE)));
 		tabbedpane.addTab(requiredLabel, tabPanel1);
 		JPanel tabPanel2 = new JPanel();
 		tabbedpane.addTab(optionalLabel, tabPanel2);
