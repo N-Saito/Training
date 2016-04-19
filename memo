@@ -1,3 +1,15 @@
+参考サイト等：
+●Overview (JavaFX 8)  
+https://docs.oracle.com/javase/8/javafx/api/overview-summary.html 
+●JavaFX 8 公式ドキュメント日本語訳へのリンク集 - ソフトウェアエンジニアリング - Torutk  
+http://www.torutk.com/projects/swe/wiki/JavaFX_8_%E5%85%AC%E5%BC%8F%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A8%B3%E3%81%B8%E3%81%AE%E3%83%AA%E3%83%B3%E3%82%AF%E9%9B%86
+●クライアント・テクノロジ: Java Platform, Standard Edition (Java SE) 8リリース8  
+http://docs.oracle.com/javase/jp/8/javase-clienttechnologies.htm 
+●第II部: JavaFXとSwingの相互運用性?(リリース8)  
+http://docs.oracle.com/javase/jp/8/javafx/interoperability-tutorial/fx_swing.htm#JFXIP561 
+
+=============================================================================================================
+
 ■JavaFXによるGUIアプリケーションの作成
 http://codezine.jp/article/detail/1448
 
