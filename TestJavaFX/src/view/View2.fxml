@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" type="javafx.scene.layout.GridPane" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+   </columnConstraints>
+   <children>
+      <Label text="%createInputDataPageNote" />
+      <Button fx:id="back" mnemonicParsing="false" onAction="#back" text="&lt;&lt; Back " GridPane.halignment="RIGHT" GridPane.rowIndex="2" />
+      <CheckBox fx:id="checkBox" mnemonicParsing="false" onAction="#checked" text="CheckBox" GridPane.rowIndex="2" />
+      <ScrollPane fx:id="scrollPane" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+         <content>
+            <TreeTableView fx:id="treeTableView" editable="true" prefHeight="200.0" prefWidth="200.0">
+              <columns>
+              </columns>
+            </TreeTableView>
+         </content>
+      </ScrollPane>
+   </children>
+</fx:root>
