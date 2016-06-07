@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basicfamily="http://www.eclipse.org/sirius/sample/basicfamily" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_nlP9oFn9EeSdI_2mA_DH9w" selectedViews="_mhqzECuDEeaCDd7hQMm-iA" version="10.1.0.201509162000">
+  <semanticResources>example.basicfamily</semanticResources>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_mhqzECuDEeaCDd7hQMm-iA">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_TegekCxcEeaq3fQco-LFWA" name="new Persons diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_TegekSxcEeaq3fQco-LFWA" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_TegekixcEeaq3fQco-LFWA">
+          <computedStyleDescriptions xmi:type="style:WorkspaceImageDescription" xmi:id="_TegekyxcEeaq3fQco-LFWA" labelSize="12" showIcon="false" labelExpression="Grandpa Paul" sizeComputationExpression="4" resizeKind="NSEW" arcWidth="1" arcHeight="1" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg">
+            <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </computedStyleDescriptions>
+          <computedStyleDescriptions xmi:type="style:WorkspaceImageDescription" xmi:id="_TegelCxcEeaq3fQco-LFWA" labelSize="12" showIcon="false" labelExpression="Grandpa Elias" sizeComputationExpression="4" resizeKind="NSEW" arcWidth="1" arcHeight="1" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg">
+            <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </computedStyleDescriptions>
+          <computedStyleDescriptions xmi:type="style:WorkspaceImageDescription" xmi:id="_TegelSxcEeaq3fQco-LFWA" showIcon="false" sizeComputationExpression="4" resizeKind="NSEW" arcWidth="1" arcHeight="1" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg">
+            <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </computedStyleDescriptions>
+          <computedStyleDescriptions xmi:type="style:WorkspaceImageDescription" xmi:id="_TegelixcEeaq3fQco-LFWA" labelSize="12" showIcon="false" labelExpression="GrandMa Isa" sizeComputationExpression="4" resizeKind="NSEW" arcWidth="1" arcHeight="1" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/woman.svg">
+            <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </computedStyleDescriptions>
+          <computedStyleDescriptions xmi:type="style:WorkspaceImageDescription" xmi:id="_TegelyxcEeaq3fQco-LFWA" showIcon="false" sizeComputationExpression="4" resizeKind="NSEW" arcWidth="1" arcHeight="1" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/woman.svg">
+            <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </computedStyleDescriptions>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Tege0CxcEeaq3fQco-LFWA" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_Tege0SxcEeaq3fQco-LFWA" type="Sirius" element="_TegekCxcEeaq3fQco-LFWA" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_Tege0yxcEeaq3fQco-LFWA" type="2001" element="_TegemCxcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_TehFoCxcEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_TehFoSxcEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TepBdSxcEeaq3fQco-LFWA" type="3005" element="_TegemSxcEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_TepBdixcEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TepBdyxcEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Tege1CxcEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tege1SxcEeaq3fQco-LFWA" x="500" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TekwACxcEeaq3fQco-LFWA" type="2001" element="_TegemixcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_TelXECxcEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_TelXESxcEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TepBeCxcEeaq3fQco-LFWA" type="3005" element="_TegemyxcEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_TepBeSxcEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TepBeixcEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TekwASxcEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TekwAixcEeaq3fQco-LFWA" x="400" y="100" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TelXEixcEeaq3fQco-LFWA" type="2001" element="_TegenCxcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_TelXFSxcEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_TelXFixcEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TepBeyxcEeaq3fQco-LFWA" type="3005" element="_TegenSxcEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_TepBfCxcEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TepBfSxcEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TelXEyxcEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TelXFCxcEeaq3fQco-LFWA" x="500" y="200" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TelXFyxcEeaq3fQco-LFWA" type="2001" element="_TegenixcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_Tel-ICxcEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Tel-ISxcEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TepogCxcEeaq3fQco-LFWA" type="3005" element="_TegenyxcEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_TepogSxcEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TepogixcEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TelXGCxcEeaq3fQco-LFWA" fontColor="8947848" fontName="メイリオ" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TelXGSxcEeaq3fQco-LFWA" x="300" y="300" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Tel-IixcEeaq3fQco-LFWA" type="2001" element="_TegeoCxcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_Tel-JSxcEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Tel-JixcEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TepogyxcEeaq3fQco-LFWA" type="3005" element="_TegeoSxcEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_TepohCxcEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TepohSxcEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Tel-IyxcEeaq3fQco-LFWA" fontColor="8947848" fontName="メイリオ" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tel-JCxcEeaq3fQco-LFWA" x="300" y="200" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_Tel-JyxcEeaq3fQco-LFWA" type="2001" element="_TegeoixcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_Tel-KixcEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_Tel-KyxcEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TepohixcEeaq3fQco-LFWA" type="3005" element="_TegeoyxcEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_TepohyxcEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TepoiCxcEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_Tel-KCxcEeaq3fQco-LFWA" fontColor="8947848" fontName="メイリオ" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tel-KSxcEeaq3fQco-LFWA" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TemlMCxcEeaq3fQco-LFWA" type="2001" element="_TegepCxcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_TemlMyxcEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_TemlNCxcEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TepoiSxcEeaq3fQco-LFWA" type="3005" element="_TegepSxcEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_TepoiixcEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TepoiyxcEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TemlMSxcEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TemlMixcEeaq3fQco-LFWA" x="400" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TenzUCxcEeaq3fQco-LFWA" type="2001" element="_TegepixcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_TenzUyxcEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_TenzVCxcEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TepojCxcEeaq3fQco-LFWA" type="3005" element="_TegepyxcEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_TepojSxcEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TepojixcEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TenzUSxcEeaq3fQco-LFWA" fontColor="8947848" fontName="メイリオ" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TenzUixcEeaq3fQco-LFWA" x="500" y="100" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TeoaYCxcEeaq3fQco-LFWA" type="2001" element="_TegeqCxcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_TeoaYyxcEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_TeoaZCxcEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TepojyxcEeaq3fQco-LFWA" type="3005" element="_TegeqSxcEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_TepokCxcEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TepokSxcEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TeoaYSxcEeaq3fQco-LFWA" fontColor="8947848" fontName="メイリオ" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TeoaYixcEeaq3fQco-LFWA" x="200" y="200" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TeoaZSxcEeaq3fQco-LFWA" type="2001" element="_TegeqixcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_TeoaaCxcEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_TeoaaSxcEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TepokixcEeaq3fQco-LFWA" type="3005" element="_TegeqyxcEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_TepokyxcEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TepolCxcEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TeoaZixcEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TeoaZyxcEeaq3fQco-LFWA" x="70" y="200" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_TepBcCxcEeaq3fQco-LFWA" type="2001" element="_TegerCxcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_TepBcyxcEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_TepBdCxcEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TepolSxcEeaq3fQco-LFWA" type="3005" element="_TegerSxcEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_TepolixcEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TepolyxcEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_TepBcSxcEeaq3fQco-LFWA" fontColor="8947848" fontName="メイリオ" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TepBcixcEeaq3fQco-LFWA" x="400" y="200" width="40" height="40"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_Tege0ixcEeaq3fQco-LFWA"/>
+          <edges xmi:type="notation:Edge" xmi:id="_TeqPkCxcEeaq3fQco-LFWA" type="4001" element="_TegerixcEeaq3fQco-LFWA" source="_TekwACxcEeaq3fQco-LFWA" target="_Tege0yxcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_TeqPlCxcEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TeqPlSxcEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TeqPlixcEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TeqPlyxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TeqPmCxcEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TeqPmSxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_TeqPkSxcEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_TeqPkixcEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TeqPkyxcEeaq3fQco-LFWA" points="[0, 0, -100, 60]$[100, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TeqPmixcEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TeqPmyxcEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_TeqPnCxcEeaq3fQco-LFWA" type="4001" element="_TegesSxcEeaq3fQco-LFWA" source="_TelXEixcEeaq3fQco-LFWA" target="_TekwACxcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_TerdsCxcEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TerdsSxcEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TerdsixcEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TerdsyxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TerdtCxcEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TerdtSxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_TeqPnSxcEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_TeqPnixcEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TeqPnyxcEeaq3fQco-LFWA" points="[0, 0, 100, 60]$[-100, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TerdtixcEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TerdtyxcEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_TerduCxcEeaq3fQco-LFWA" type="4001" element="_TegetCxcEeaq3fQco-LFWA" source="_TelXFyxcEeaq3fQco-LFWA" target="_TelXEixcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_TerdvCxcEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TerdvSxcEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TerdvixcEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TerdvyxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TerdwCxcEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TerdwSxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_TerduSxcEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_TerduixcEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TerduyxcEeaq3fQco-LFWA" points="[0, 0, -200, 60]$[200, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TerdwixcEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TerdwyxcEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_TerdxCxcEeaq3fQco-LFWA" type="4001" element="_TegetyxcEeaq3fQco-LFWA" source="_Tel-IixcEeaq3fQco-LFWA" target="_TekwACxcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_TerdyCxcEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TerdySxcEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TerdyixcEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TerdyyxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TerdzCxcEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TerdzSxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_TerdxSxcEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_TerdxixcEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TerdxyxcEeaq3fQco-LFWA" points="[0, 0, -100, 60]$[100, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TerdzixcEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TerdzyxcEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_TesEwCxcEeaq3fQco-LFWA" type="4001" element="_TegeuixcEeaq3fQco-LFWA" source="_TenzUCxcEeaq3fQco-LFWA" target="_Tege0yxcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_TesExCxcEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TesExSxcEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TesExixcEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TesExyxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TesEyCxcEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TesEySxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_TesEwSxcEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_TesEwixcEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TesEwyxcEeaq3fQco-LFWA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TesEyixcEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TesEyyxcEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_TesEzCxcEeaq3fQco-LFWA" type="4001" element="_TegevSxcEeaq3fQco-LFWA" source="_TeoaYCxcEeaq3fQco-LFWA" target="_TekwACxcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_TesE0CxcEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TesE0SxcEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TesE0ixcEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TesE0yxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TesE1CxcEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TesE1SxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_TesEzSxcEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_TesEzixcEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TesEzyxcEeaq3fQco-LFWA" points="[0, 0, -200, 60]$[200, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TesE1ixcEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TesE1yxcEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_TesE2CxcEeaq3fQco-LFWA" type="4001" element="_TegewCxcEeaq3fQco-LFWA" source="_TepBcCxcEeaq3fQco-LFWA" target="_TekwACxcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_TesE3CxcEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TesE3SxcEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TesE3ixcEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TesE3yxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TesE4CxcEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TesE4SxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_TesE2SxcEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_TesE2ixcEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TesE2yxcEeaq3fQco-LFWA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TesE4ixcEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TesE4yxcEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_TesE5CxcEeaq3fQco-LFWA" type="4001" element="_TegewyxcEeaq3fQco-LFWA" source="_TekwACxcEeaq3fQco-LFWA" target="_TemlMCxcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_Tesr0CxcEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tesr0SxcEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Tesr0ixcEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tesr0yxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Tesr1CxcEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tesr1SxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_TesE5SxcEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_TesE5ixcEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TesE5yxcEeaq3fQco-LFWA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Tesr1ixcEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Tesr1yxcEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_Tesr2CxcEeaq3fQco-LFWA" type="4001" element="_TegexixcEeaq3fQco-LFWA" source="_TelXEixcEeaq3fQco-LFWA" target="_TenzUCxcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_Tesr3CxcEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tesr3SxcEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Tesr3ixcEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tesr3yxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Tesr4CxcEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tesr4SxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_Tesr2SxcEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_Tesr2ixcEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Tesr2yxcEeaq3fQco-LFWA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Tesr4ixcEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Tesr4yxcEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_Tesr5CxcEeaq3fQco-LFWA" type="4001" element="_TegeySxcEeaq3fQco-LFWA" source="_TelXFyxcEeaq3fQco-LFWA" target="_TeoaZSxcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_Tesr6CxcEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tesr6SxcEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Tesr6ixcEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tesr6yxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Tesr7CxcEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tesr7SxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_Tesr5SxcEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_Tesr5ixcEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Tesr5yxcEeaq3fQco-LFWA" points="[0, 0, 200, 60]$[-200, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Tesr7ixcEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Tesr7yxcEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_Tesr8CxcEeaq3fQco-LFWA" type="4001" element="_TegezCxcEeaq3fQco-LFWA" source="_TenzUCxcEeaq3fQco-LFWA" target="_TemlMCxcEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_Tesr9CxcEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tesr9SxcEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Tesr9ixcEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tesr9yxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_Tesr-CxcEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Tesr-SxcEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_Tesr8SxcEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_Tesr8ixcEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Tesr8yxcEeaq3fQco-LFWA" points="[0, 0, 100, 60]$[-100, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Tesr-ixcEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Tesr-yxcEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_TegemCxcEeaq3fQco-LFWA" name="Grandpa Paul" incomingEdges="_TegerixcEeaq3fQco-LFWA _TegeuixcEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.0"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_TegemSxcEeaq3fQco-LFWA" labelSize="12" showIcon="false" description="_TegekyxcEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_TegemixcEeaq3fQco-LFWA" name="Grandpa Elias" outgoingEdges="_TegerixcEeaq3fQco-LFWA _TegewyxcEeaq3fQco-LFWA" incomingEdges="_TegesSxcEeaq3fQco-LFWA _TegetyxcEeaq3fQco-LFWA _TegevSxcEeaq3fQco-LFWA _TegewCxcEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.2"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.2"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_TegemyxcEeaq3fQco-LFWA" labelSize="12" showIcon="false" description="_TegelCxcEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_TegenCxcEeaq3fQco-LFWA" name="Dave" outgoingEdges="_TegesSxcEeaq3fQco-LFWA _TegexixcEeaq3fQco-LFWA" incomingEdges="_TegetCxcEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.4"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.4"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_TegenSxcEeaq3fQco-LFWA" showIcon="false" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_TegenixcEeaq3fQco-LFWA" name="Alain" outgoingEdges="_TegetCxcEeaq3fQco-LFWA _TegeySxcEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.5"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.5"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_TegenyxcEeaq3fQco-LFWA" showIcon="false" labelColor="136,136,136" description="_TegelSxcEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_TegeoCxcEeaq3fQco-LFWA" name="Bryan" outgoingEdges="_TegetyxcEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.6"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.6"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_TegeoSxcEeaq3fQco-LFWA" showIcon="false" labelColor="136,136,136" description="_TegelSxcEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_TegeoixcEeaq3fQco-LFWA" name="Albert" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.10"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.10"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_TegeoyxcEeaq3fQco-LFWA" showIcon="false" labelColor="136,136,136" description="_TegelSxcEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_TegepCxcEeaq3fQco-LFWA" name="GrandMa Isa" incomingEdges="_TegewyxcEeaq3fQco-LFWA _TegezCxcEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.1"/>
+        <semanticElements xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_TegepSxcEeaq3fQco-LFWA" labelSize="12" showIcon="false" description="_TegelixcEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/woman.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_TegepixcEeaq3fQco-LFWA" name="Léa" outgoingEdges="_TegeuixcEeaq3fQco-LFWA _TegezCxcEeaq3fQco-LFWA" incomingEdges="_TegexixcEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.3"/>
+        <semanticElements xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.3"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_TegepyxcEeaq3fQco-LFWA" showIcon="false" labelColor="136,136,136" description="_TegelyxcEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/woman.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_TegeqCxcEeaq3fQco-LFWA" name="Fiona" outgoingEdges="_TegevSxcEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.7"/>
+        <semanticElements xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.7"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_TegeqSxcEeaq3fQco-LFWA" showIcon="false" labelColor="136,136,136" description="_TegelyxcEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/woman.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_TegeqixcEeaq3fQco-LFWA" name="Katell" incomingEdges="_TegeySxcEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.8"/>
+        <semanticElements xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.8"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_TegeqyxcEeaq3fQco-LFWA" showIcon="false" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/woman.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_TegerCxcEeaq3fQco-LFWA" name="Clara" outgoingEdges="_TegewCxcEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.9"/>
+        <semanticElements xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.9"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_TegerSxcEeaq3fQco-LFWA" showIcon="false" labelColor="136,136,136" description="_TegelyxcEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/woman.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@nodeMappings[name='WomanNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_TegerixcEeaq3fQco-LFWA" sourceNode="_TegemixcEeaq3fQco-LFWA" targetNode="_TegemCxcEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_TegeryxcEeaq3fQco-LFWA" size="2" strokeColor="114,159,207">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_TegesCxcEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_TegesSxcEeaq3fQco-LFWA" sourceNode="_TegenCxcEeaq3fQco-LFWA" targetNode="_TegemixcEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.4"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_TegesixcEeaq3fQco-LFWA" size="2" strokeColor="114,159,207">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_TegesyxcEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_TegetCxcEeaq3fQco-LFWA" sourceNode="_TegenixcEeaq3fQco-LFWA" targetNode="_TegenCxcEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.5"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_TegetSxcEeaq3fQco-LFWA" size="2" strokeColor="114,159,207">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_TegetixcEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_TegetyxcEeaq3fQco-LFWA" sourceNode="_TegeoCxcEeaq3fQco-LFWA" targetNode="_TegemixcEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.6"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_TegeuCxcEeaq3fQco-LFWA" size="2" strokeColor="114,159,207">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_TegeuSxcEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_TegeuixcEeaq3fQco-LFWA" sourceNode="_TegepixcEeaq3fQco-LFWA" targetNode="_TegemCxcEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.3"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_TegeuyxcEeaq3fQco-LFWA" size="2" strokeColor="114,159,207">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_TegevCxcEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_TegevSxcEeaq3fQco-LFWA" sourceNode="_TegeqCxcEeaq3fQco-LFWA" targetNode="_TegemixcEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.7"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_TegevixcEeaq3fQco-LFWA" size="2" strokeColor="114,159,207">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_TegevyxcEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_TegewCxcEeaq3fQco-LFWA" sourceNode="_TegerCxcEeaq3fQco-LFWA" targetNode="_TegemixcEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.9"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_TegewSxcEeaq3fQco-LFWA" size="2" strokeColor="114,159,207">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_TegewixcEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_TegewyxcEeaq3fQco-LFWA" sourceNode="_TegemixcEeaq3fQco-LFWA" targetNode="_TegepCxcEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_TegexCxcEeaq3fQco-LFWA" size="2" strokeColor="173,127,168">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_TegexSxcEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_TegexixcEeaq3fQco-LFWA" sourceNode="_TegenCxcEeaq3fQco-LFWA" targetNode="_TegepixcEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.4"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_TegexyxcEeaq3fQco-LFWA" size="2" strokeColor="173,127,168">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_TegeyCxcEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_TegeySxcEeaq3fQco-LFWA" sourceNode="_TegenixcEeaq3fQco-LFWA" targetNode="_TegeqixcEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.5"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_TegeyixcEeaq3fQco-LFWA" size="2" strokeColor="173,127,168">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_TegeyyxcEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_TegezCxcEeaq3fQco-LFWA" sourceNode="_TegepixcEeaq3fQco-LFWA" targetNode="_TegepCxcEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.3"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_TegezSxcEeaq3fQco-LFWA" size="2" strokeColor="173,127,168">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_TegezixcEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer/@edgeMappings[name='motherEdge']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_TegezyxcEeaq3fQco-LFWA"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer"/>
+      <target xmi:type="basicfamily:Family" href="example.basicfamily#/"/>
+    </ownedRepresentations>
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_2YvXYCxdEeaq3fQco-LFWA" name="new Persons diagram">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_2YvXYSxdEeaq3fQco-LFWA" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_2YvXYixdEeaq3fQco-LFWA">
+          <computedStyleDescriptions xmi:type="style:WorkspaceImageDescription" xmi:id="_2YvXYyxdEeaq3fQco-LFWA" labelSize="12" showIcon="false" labelExpression="Grandpa Paul" sizeComputationExpression="4" resizeKind="NSEW" arcWidth="1" arcHeight="1" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg">
+            <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </computedStyleDescriptions>
+          <computedStyleDescriptions xmi:type="style:WorkspaceImageDescription" xmi:id="_2YvXZCxdEeaq3fQco-LFWA" labelSize="12" showIcon="false" labelExpression="Grandpa Elias" sizeComputationExpression="4" resizeKind="NSEW" arcWidth="1" arcHeight="1" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg">
+            <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </computedStyleDescriptions>
+          <computedStyleDescriptions xmi:type="style:WorkspaceImageDescription" xmi:id="_2YvXZSxdEeaq3fQco-LFWA" showIcon="false" sizeComputationExpression="4" resizeKind="NSEW" arcWidth="1" arcHeight="1" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg">
+            <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </computedStyleDescriptions>
+          <computedStyleDescriptions xmi:type="style:WorkspaceImageDescription" xmi:id="_2YvXZixdEeaq3fQco-LFWA" labelSize="12" showIcon="false" labelExpression="GrandMa Isa" sizeComputationExpression="4" resizeKind="NSEW" arcWidth="1" arcHeight="1" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/woman.svg">
+            <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </computedStyleDescriptions>
+          <computedStyleDescriptions xmi:type="style:WorkspaceImageDescription" xmi:id="_2YvXZyxdEeaq3fQco-LFWA" showIcon="false" sizeComputationExpression="4" resizeKind="NSEW" arcWidth="1" arcHeight="1" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/woman.svg">
+            <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </computedStyleDescriptions>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_2YvXoCxdEeaq3fQco-LFWA" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_2YvXoSxdEeaq3fQco-LFWA" type="Sirius" element="_2YvXYCxdEeaq3fQco-LFWA" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_2YvXoyxdEeaq3fQco-LFWA" type="2001" element="_2YvXaCxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Yv-cCxdEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_2Yv-cSxdEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y6WiixdEeaq3fQco-LFWA" type="3005" element="_2YvXaSxdEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2Y6WiyxdEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y6WjCxdEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2YvXpCxdEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2YvXpSxdEeaq3fQco-LFWA" x="300" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2YxzoCxdEeaq3fQco-LFWA" type="2001" element="_2YvXaixdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2YxzoyxdEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_2YxzpCxdEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y69kCxdEeaq3fQco-LFWA" type="3005" element="_2YvXayxdEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2Y69kSxdEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y69kixdEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2YxzoSxdEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2YxzoixdEeaq3fQco-LFWA" x="300" y="100" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2YyasCxdEeaq3fQco-LFWA" type="2001" element="_2YvXbCxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2YyasyxdEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_2YyatCxdEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y69kyxdEeaq3fQco-LFWA" type="3005" element="_2YvXbSxdEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2Y69lCxdEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y69lSxdEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2YyasSxdEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2YyasixdEeaq3fQco-LFWA" x="200" y="200" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2YyatSxdEeaq3fQco-LFWA" type="2001" element="_2YvXbixdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2YzBwCxdEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_2YzBwSxdEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y69lixdEeaq3fQco-LFWA" type="3005" element="_2YvXbyxdEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2Y69lyxdEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y69mCxdEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2YyatixdEeaq3fQco-LFWA" fontColor="8947848" fontName="メイリオ" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2YyatyxdEeaq3fQco-LFWA" x="150" y="300" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2YzBwixdEeaq3fQco-LFWA" type="2001" element="_2YvXcCxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2YzBxSxdEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_2YzBxixdEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y69mSxdEeaq3fQco-LFWA" type="3005" element="_2YvXcSxdEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2Y69mixdEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y69myxdEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2YzBwyxdEeaq3fQco-LFWA" fontColor="8947848" fontName="メイリオ" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2YzBxCxdEeaq3fQco-LFWA" x="500" y="200" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Yzo0CxdEeaq3fQco-LFWA" type="2001" element="_2YvXcixdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Yzo0yxdEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_2Yzo1CxdEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y69nCxdEeaq3fQco-LFWA" type="3005" element="_2YvXcyxdEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2Y69nSxdEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y69nixdEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2Yzo0SxdEeaq3fQco-LFWA" fontColor="8947848" fontName="メイリオ" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Yzo0ixdEeaq3fQco-LFWA" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Yzo1SxdEeaq3fQco-LFWA" type="2001" element="_2YvXdCxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Yzo2CxdEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_2Yzo2SxdEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y69nyxdEeaq3fQco-LFWA" type="3005" element="_2YvXdSxdEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2Y69oCxdEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y69oSxdEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2Yzo1ixdEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="12"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Yzo1yxdEeaq3fQco-LFWA" x="200" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Y5IYCxdEeaq3fQco-LFWA" type="2001" element="_2YvXdixdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Y5vcCxdEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_2Y5vcSxdEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y69oixdEeaq3fQco-LFWA" type="3005" element="_2YvXdyxdEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2Y69oyxdEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y69pCxdEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2Y5IYSxdEeaq3fQco-LFWA" fontColor="8947848" fontName="メイリオ" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y5IYixdEeaq3fQco-LFWA" x="200" y="100" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Y5vcixdEeaq3fQco-LFWA" type="2001" element="_2YvXeCxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Y5vdSxdEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_2Y5vdixdEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y69pSxdEeaq3fQco-LFWA" type="3005" element="_2YvXeSxdEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2Y69pixdEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y69pyxdEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2Y5vcyxdEeaq3fQco-LFWA" fontColor="8947848" fontName="メイリオ" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y5vdCxdEeaq3fQco-LFWA" x="400" y="200" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Y6WgCxdEeaq3fQco-LFWA" type="2001" element="_2YvXeixdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Y6WgyxdEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_2Y6WhCxdEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y7koCxdEeaq3fQco-LFWA" type="3005" element="_2YvXeyxdEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2Y7koSxdEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y7koixdEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2Y6WgSxdEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y6WgixdEeaq3fQco-LFWA" x="70" y="200" width="40" height="40"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_2Y6WhSxdEeaq3fQco-LFWA" type="2001" element="_2YvXfCxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Y6WiCxdEeaq3fQco-LFWA" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_2Y6WiSxdEeaq3fQco-LFWA" x="-5" y="-21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y7koyxdEeaq3fQco-LFWA" type="3005" element="_2YvXfSxdEeaq3fQco-LFWA">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_2Y7kpCxdEeaq3fQco-LFWA" fontName="メイリオ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y7kpSxdEeaq3fQco-LFWA"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_2Y6WhixdEeaq3fQco-LFWA" fontColor="8947848" fontName="メイリオ" fontHeight="8"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y6WhyxdEeaq3fQco-LFWA" x="300" y="200" width="40" height="40"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_2YvXoixdEeaq3fQco-LFWA"/>
+          <edges xmi:type="notation:Edge" xmi:id="_2Y7kpixdEeaq3fQco-LFWA" type="4001" element="_2YvXfixdEeaq3fQco-LFWA" source="_2YxzoCxdEeaq3fQco-LFWA" target="_2YvXoyxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Y7kqixdEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y7kqyxdEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y7krCxdEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y7krSxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y7krixdEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y7kryxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_2Y7kpyxdEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_2Y7kqCxdEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Y7kqSxdEeaq3fQco-LFWA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y7ksCxdEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y7ksSxdEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_2Y7ksixdEeaq3fQco-LFWA" type="4001" element="_2YvXgSxdEeaq3fQco-LFWA" source="_2YyasCxdEeaq3fQco-LFWA" target="_2YxzoCxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Y7ktixdEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y7ktyxdEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y8LsCxdEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8LsSxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y8LsixdEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8LsyxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_2Y7ksyxdEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_2Y7ktCxdEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Y7ktSxdEeaq3fQco-LFWA" points="[0, 0, -100, 60]$[100, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y8LtCxdEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y8LtSxdEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_2Y8LtixdEeaq3fQco-LFWA" type="4001" element="_2YvXhCxdEeaq3fQco-LFWA" source="_2YyatSxdEeaq3fQco-LFWA" target="_2YyasCxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Y8LuixdEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8LuyxdEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y8LvCxdEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8LvSxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y8LvixdEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8LvyxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_2Y8LtyxdEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_2Y8LuCxdEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Y8LuSxdEeaq3fQco-LFWA" points="[0, 0, -50, 60]$[50, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y8LwCxdEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y8LwSxdEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_2Y8LwixdEeaq3fQco-LFWA" type="4001" element="_2YvXhyxdEeaq3fQco-LFWA" source="_2YzBwixdEeaq3fQco-LFWA" target="_2YxzoCxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Y8LxixdEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8LxyxdEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y8LyCxdEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8LySxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y8LyixdEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8LyyxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_2Y8LwyxdEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_2Y8LxCxdEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Y8LxSxdEeaq3fQco-LFWA" points="[0, 0, 200, 60]$[-200, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y8LzCxdEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y8LzSxdEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_2Y8LzixdEeaq3fQco-LFWA" type="4001" element="_2YvXiixdEeaq3fQco-LFWA" source="_2Y5IYCxdEeaq3fQco-LFWA" target="_2YvXoyxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Y8L0ixdEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8L0yxdEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y8L1CxdEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8L1SxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y8L1ixdEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8L1yxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_2Y8LzyxdEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_2Y8L0CxdEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Y8L0SxdEeaq3fQco-LFWA" points="[0, 0, -100, 60]$[100, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y8L2CxdEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y8L2SxdEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_2Y8ywCxdEeaq3fQco-LFWA" type="4001" element="_2YvXjSxdEeaq3fQco-LFWA" source="_2Y5vcixdEeaq3fQco-LFWA" target="_2YxzoCxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Y8yxCxdEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8yxSxdEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y8yxixdEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8yxyxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y8yyCxdEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8yySxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_2Y8ywSxdEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_2Y8ywixdEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Y8ywyxdEeaq3fQco-LFWA" points="[0, 0, 100, 60]$[-100, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y8yyixdEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y8yyyxdEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_2Y8yzCxdEeaq3fQco-LFWA" type="4001" element="_2YvXkCxdEeaq3fQco-LFWA" source="_2Y6WhSxdEeaq3fQco-LFWA" target="_2YxzoCxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Y8y0CxdEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8y0SxdEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y8y0ixdEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8y0yxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y8y1CxdEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8y1SxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_2Y8yzSxdEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_2Y8yzixdEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Y8yzyxdEeaq3fQco-LFWA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y8y1ixdEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y8y1yxdEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_2Y8y2CxdEeaq3fQco-LFWA" type="4001" element="_2YvXkyxdEeaq3fQco-LFWA" source="_2YxzoCxdEeaq3fQco-LFWA" target="_2Yzo1SxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Y8y3CxdEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8y3SxdEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y8y3ixdEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8y3yxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y8y4CxdEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8y4SxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_2Y8y2SxdEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_2Y8y2ixdEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Y8y2yxdEeaq3fQco-LFWA" points="[0, 0, 100, 60]$[-100, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y8y4ixdEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y8y4yxdEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_2Y8y5CxdEeaq3fQco-LFWA" type="4001" element="_2YvXlixdEeaq3fQco-LFWA" source="_2YyasCxdEeaq3fQco-LFWA" target="_2Y5IYCxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Y8y6CxdEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8y6SxdEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y8y6ixdEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8y6yxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y8y7CxdEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y8y7SxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_2Y8y5SxdEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_2Y8y5ixdEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Y8y5yxdEeaq3fQco-LFWA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y8y7ixdEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y9Z0CxdEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_2Y9Z0SxdEeaq3fQco-LFWA" type="4001" element="_2YvXmSxdEeaq3fQco-LFWA" source="_2YyatSxdEeaq3fQco-LFWA" target="_2Y6WgCxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Y9Z1SxdEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y9Z1ixdEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y9Z1yxdEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y9Z2CxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y9Z2SxdEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y9Z2ixdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_2Y9Z0ixdEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_2Y9Z0yxdEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Y9Z1CxdEeaq3fQco-LFWA" points="[0, 0, 50, 60]$[-50, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y9Z2yxdEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y9Z3CxdEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_2Y9Z3SxdEeaq3fQco-LFWA" type="4001" element="_2YvXnCxdEeaq3fQco-LFWA" source="_2Y5IYCxdEeaq3fQco-LFWA" target="_2Yzo1SxdEeaq3fQco-LFWA">
+            <children xmi:type="notation:Node" xmi:id="_2Y9Z4SxdEeaq3fQco-LFWA" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y9Z4ixdEeaq3fQco-LFWA" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y9Z4yxdEeaq3fQco-LFWA" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y9Z5CxdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_2Y9Z5SxdEeaq3fQco-LFWA" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2Y9Z5ixdEeaq3fQco-LFWA" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_2Y9Z3ixdEeaq3fQco-LFWA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_2Y9Z3yxdEeaq3fQco-LFWA" fontName="メイリオ" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Y9Z4CxdEeaq3fQco-LFWA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y9Z5yxdEeaq3fQco-LFWA" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Y9Z6CxdEeaq3fQco-LFWA" id="(0.5,1.0)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2YvXaCxdEeaq3fQco-LFWA" name="Grandpa Paul" incomingEdges="_2YvXfixdEeaq3fQco-LFWA _2YvXiixdEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.0"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.0"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2YvXaSxdEeaq3fQco-LFWA" labelSize="12" showIcon="false" description="_2YvXYyxdEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2YvXaixdEeaq3fQco-LFWA" name="Grandpa Elias" outgoingEdges="_2YvXfixdEeaq3fQco-LFWA _2YvXkyxdEeaq3fQco-LFWA" incomingEdges="_2YvXgSxdEeaq3fQco-LFWA _2YvXhyxdEeaq3fQco-LFWA _2YvXjSxdEeaq3fQco-LFWA _2YvXkCxdEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.2"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.2"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2YvXayxdEeaq3fQco-LFWA" labelSize="12" showIcon="false" description="_2YvXZCxdEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2YvXbCxdEeaq3fQco-LFWA" name="Dave" outgoingEdges="_2YvXgSxdEeaq3fQco-LFWA _2YvXlixdEeaq3fQco-LFWA" incomingEdges="_2YvXhCxdEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.4"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.4"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2YvXbSxdEeaq3fQco-LFWA" showIcon="false" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@nodeMappings[name='ManNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2YvXbixdEeaq3fQco-LFWA" name="Alain" outgoingEdges="_2YvXhCxdEeaq3fQco-LFWA _2YvXmSxdEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.5"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.5"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2YvXbyxdEeaq3fQco-LFWA" showIcon="false" labelColor="136,136,136" description="_2YvXZSxdEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2YvXcCxdEeaq3fQco-LFWA" name="Bryan" outgoingEdges="_2YvXhyxdEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.6"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.6"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2YvXcSxdEeaq3fQco-LFWA" showIcon="false" labelColor="136,136,136" description="_2YvXZSxdEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2YvXcixdEeaq3fQco-LFWA" name="Albert" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.10"/>
+        <semanticElements xmi:type="basicfamily:Man" href="example.basicfamily#//@members.10"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2YvXcyxdEeaq3fQco-LFWA" showIcon="false" labelColor="136,136,136" description="_2YvXZSxdEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/man.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@nodeMappings[name='ManNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2YvXdCxdEeaq3fQco-LFWA" name="GrandMa Isa" incomingEdges="_2YvXkyxdEeaq3fQco-LFWA _2YvXnCxdEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.1"/>
+        <semanticElements xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.1"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2YvXdSxdEeaq3fQco-LFWA" labelSize="12" showIcon="false" description="_2YvXZixdEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/woman.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Woman']/@nodeMappings[name='WomanNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2YvXdixdEeaq3fQco-LFWA" name="Léa" outgoingEdges="_2YvXiixdEeaq3fQco-LFWA _2YvXnCxdEeaq3fQco-LFWA" incomingEdges="_2YvXlixdEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.3"/>
+        <semanticElements xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.3"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2YvXdyxdEeaq3fQco-LFWA" showIcon="false" labelColor="136,136,136" description="_2YvXZyxdEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/woman.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Woman']/@nodeMappings[name='WomanNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2YvXeCxdEeaq3fQco-LFWA" name="Fiona" outgoingEdges="_2YvXjSxdEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.7"/>
+        <semanticElements xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.7"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2YvXeSxdEeaq3fQco-LFWA" showIcon="false" labelColor="136,136,136" description="_2YvXZyxdEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/woman.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Woman']/@nodeMappings[name='WomanNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2YvXeixdEeaq3fQco-LFWA" name="Katell" incomingEdges="_2YvXmSxdEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.8"/>
+        <semanticElements xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.8"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2YvXeyxdEeaq3fQco-LFWA" showIcon="false" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/woman.svg">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Woman']/@nodeMappings[name='WomanNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Woman']/@nodeMappings[name='WomanNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_2YvXfCxdEeaq3fQco-LFWA" name="Clara" outgoingEdges="_2YvXkCxdEeaq3fQco-LFWA" width="4" height="4" resizeKind="NSEW">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.9"/>
+        <semanticElements xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.9"/>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_2YvXfSxdEeaq3fQco-LFWA" showIcon="false" labelColor="136,136,136" description="_2YvXZyxdEeaq3fQco-LFWA" workspacePath="/org.eclipse.sirius.sample.basicfamily.design/icons/woman.svg"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Woman']/@nodeMappings[name='WomanNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2YvXfixdEeaq3fQco-LFWA" sourceNode="_2YvXaixdEeaq3fQco-LFWA" targetNode="_2YvXaCxdEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2YvXfyxdEeaq3fQco-LFWA" size="2" strokeColor="114,159,207">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@edgeMappings[name='fatherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2YvXgCxdEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2YvXgSxdEeaq3fQco-LFWA" sourceNode="_2YvXbCxdEeaq3fQco-LFWA" targetNode="_2YvXaixdEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.4"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2YvXgixdEeaq3fQco-LFWA" size="2" strokeColor="114,159,207">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@edgeMappings[name='fatherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2YvXgyxdEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2YvXhCxdEeaq3fQco-LFWA" sourceNode="_2YvXbixdEeaq3fQco-LFWA" targetNode="_2YvXbCxdEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.5"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2YvXhSxdEeaq3fQco-LFWA" size="2" strokeColor="114,159,207">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@edgeMappings[name='fatherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2YvXhixdEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2YvXhyxdEeaq3fQco-LFWA" sourceNode="_2YvXcCxdEeaq3fQco-LFWA" targetNode="_2YvXaixdEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.6"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2YvXiCxdEeaq3fQco-LFWA" size="2" strokeColor="114,159,207">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@edgeMappings[name='fatherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2YvXiSxdEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2YvXiixdEeaq3fQco-LFWA" sourceNode="_2YvXdixdEeaq3fQco-LFWA" targetNode="_2YvXaCxdEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.3"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2YvXiyxdEeaq3fQco-LFWA" size="2" strokeColor="114,159,207">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@edgeMappings[name='fatherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2YvXjCxdEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2YvXjSxdEeaq3fQco-LFWA" sourceNode="_2YvXeCxdEeaq3fQco-LFWA" targetNode="_2YvXaixdEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.7"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2YvXjixdEeaq3fQco-LFWA" size="2" strokeColor="114,159,207">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@edgeMappings[name='fatherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2YvXjyxdEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2YvXkCxdEeaq3fQco-LFWA" sourceNode="_2YvXfCxdEeaq3fQco-LFWA" targetNode="_2YvXaixdEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.9"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2YvXkSxdEeaq3fQco-LFWA" size="2" strokeColor="114,159,207">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@edgeMappings[name='fatherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2YvXkixdEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']/@edgeMappings[name='fatherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2YvXkyxdEeaq3fQco-LFWA" sourceNode="_2YvXaixdEeaq3fQco-LFWA" targetNode="_2YvXdCxdEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.2"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2YvXlCxdEeaq3fQco-LFWA" size="2" strokeColor="173,127,168">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Woman']/@edgeMappings[name='motherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2YvXlSxdEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Woman']/@edgeMappings[name='motherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2YvXlixdEeaq3fQco-LFWA" sourceNode="_2YvXbCxdEeaq3fQco-LFWA" targetNode="_2YvXdixdEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.4"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2YvXlyxdEeaq3fQco-LFWA" size="2" strokeColor="173,127,168">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Woman']/@edgeMappings[name='motherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2YvXmCxdEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Woman']/@edgeMappings[name='motherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2YvXmSxdEeaq3fQco-LFWA" sourceNode="_2YvXbixdEeaq3fQco-LFWA" targetNode="_2YvXeixdEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Man" href="example.basicfamily#//@members.5"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2YvXmixdEeaq3fQco-LFWA" size="2" strokeColor="173,127,168">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Woman']/@edgeMappings[name='motherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2YvXmyxdEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Woman']/@edgeMappings[name='motherEdge']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_2YvXnCxdEeaq3fQco-LFWA" sourceNode="_2YvXdixdEeaq3fQco-LFWA" targetNode="_2YvXdCxdEeaq3fQco-LFWA">
+        <target xmi:type="basicfamily:Woman" href="example.basicfamily#//@members.3"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_2YvXnSxdEeaq3fQco-LFWA" size="2" strokeColor="173,127,168">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Woman']/@edgeMappings[name='motherEdge']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_2YvXnixdEeaq3fQco-LFWA"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Woman']/@edgeMappings[name='motherEdge']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_2YvXnyxdEeaq3fQco-LFWA"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@defaultLayer"/>
+      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Men']"/>
+      <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']/@ownedRepresentations[name='Persons%20diagram']/@additionalLayers[name='Woman']"/>
+      <target xmi:type="basicfamily:Family" href="example.basicfamily#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/org.eclipse.sirius.sample.basicfamily.design/description/basicfamily.odesign#//@ownedViewpoints[name='persons']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>
