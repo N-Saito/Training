@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<basicfamily:Family xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basicfamily="http://www.eclipse.org/sirius/sample/basicfamily" name="">
+  <members xsi:type="basicfamily:Man" name="Paul" children="//@members.2 //@members.3"/>
+  <members xsi:type="basicfamily:Woman" name="Isa" children="//@members.2"/>
+  <members xsi:type="basicfamily:Man" name="Elias" children="//@members.7 //@members.6 //@members.4 //@members.9" parents="//@members.1 //@members.0"/>
+  <members xsi:type="basicfamily:Woman" name="Léa" children="//@members.4 //@members.6 //@members.9" parents="//@members.0 //@members.9" mother="//@members.9"/>
+  <members xsi:type="basicfamily:Man" name="Dave" parents="//@members.3 //@members.2"/>
+  <members xsi:type="basicfamily:Man" name="Alain" children="//@members.10" parents="//@members.9 //@members.10"/>
+  <members xsi:type="basicfamily:Man" name="Bryan" children="//@members.8" parents="//@members.2 //@members.3"/>
+  <members xsi:type="basicfamily:Woman" name="Fiona" children="//@members.8" parents="//@members.2"/>
+  <members xsi:type="basicfamily:Woman" name="Katell" parents="//@members.7 //@members.6"/>
+  <members xsi:type="basicfamily:Woman" name="Clara" children="//@members.5 //@members.10 //@members.3" parents="//@members.3 //@members.2"/>
+  <members xsi:type="basicfamily:Man" name="Albert" children="//@members.5" parents="//@members.9 //@members.5" father="//@members.5"/>
+</basicfamily:Family>
